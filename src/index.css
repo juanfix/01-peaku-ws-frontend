@@ -1,0 +1,88 @@
+#root {
+  --bg-color: #f7f8fc;
+  --bg-color-secondary: #ffe6da;
+  --main-color: #fa7436;
+  --star-color: #FFD700;
+
+}
+
+@media (max-width: 991.99px) { 
+  .card{
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 992px) { 
+
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-nav {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-inline {
+    display: contents;
+  }
+}
+
+.bg-custom {
+  background-color: var(--bg-color);
+}
+
+.btn-primary {
+  background-color: var(--main-color);
+  border: none;
+}
+
+.text-orange, .link-secondary, .btn-link, .btn-outline-primary {
+  color: var(--main-color);
+}
+
+.btn-outline-primary {
+  border-color: var(--main-color);
+}
+
+.card{
+  border-radius: 11px;
+}
+
+.icon-gold {
+  color: var(--star-color);
+}
+
+.final-price {
+  border: 1px;
+  background-color: var(--bg-color-secondary);
+  border-radius: 5px;
+}
+
+.btn-circle {
+  width: 35px;
+  height: 35px;
+  padding: 6px 0px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+.bg-orange {
+  background-color: var(--main-color);
+  border-radius: 15px;
+  margin: 0px;
+}
+
+/* Carousel */
+
+#carouselExampleCaptions img {
+  height: 60vh;
+}
+
+
+
+
