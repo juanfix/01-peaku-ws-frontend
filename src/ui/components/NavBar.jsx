@@ -15,7 +15,7 @@ export const NavBar = () => {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src="./assets/img/Logo.png" />
+            <img src="/assets/img/Logo.png" />
           </a>
           <button
             className="navbar-toggler"

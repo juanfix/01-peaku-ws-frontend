@@ -26,7 +26,7 @@ export const BestVPlan = () => {
           <div className="card">
             <img
               className="card-img-top"
-              src="./assets/img/Image-4.png"
+              src="/assets/img/Image-4.png"
               alt="Card image cap"
             />
             <div className="card-body">
@@ -51,7 +51,7 @@ export const BestVPlan = () => {
           <div className="card">
             <img
               className="card-img-top"
-              src="./assets/img/Image-5.png"
+              src="/assets/img/Image-5.png"
               alt="Card image cap"
             />
             <div className="card-body">
@@ -76,7 +76,7 @@ export const BestVPlan = () => {
           <div className="card">
             <img
               className="card-img-top"
-              src="./assets/img/Image-6.png"
+              src="/assets/img/Image-6.png"
               alt="Card image cap"
             />
             <div className="card-body">

@@ -17,7 +17,7 @@ export const ExclusiveDD = () => {
           <div className="card">
             <img
               className="card-img-top"
-              src="./assets/img/Image-1.png"
+              src="/assets/img/Image-1.png"
               alt="Madrid"
             />
             <div className="card-body">
@@ -46,7 +46,7 @@ export const ExclusiveDD = () => {
           <div className="card">
             <img
               className="card-img-top"
-              src="./assets/img/Hover-effect.png"
+              src="/assets/img/Hover-effect.png"
               alt="Card image cap"
             />
             <div className="card-body">
@@ -75,7 +75,7 @@ export const ExclusiveDD = () => {
           <div className="card">
             <img
               className="card-img-top"
-              src="./assets/img/Image-2.png"
+              src="/assets/img/Image-2.png"
               alt="Card image cap"
             />
             <div className="card-body">
@@ -104,7 +104,7 @@ export const ExclusiveDD = () => {
           <div className="card">
             <img
               className="card-img-top"
-              src="./assets/img/Image-3.png"
+              src="/assets/img/Image-3.png"
               alt="Card image cap"
             />
             <div className="card-body">

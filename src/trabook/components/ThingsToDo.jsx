@@ -18,7 +18,7 @@ export const ThingsToDo = () => {
             <div className="card-body">
               <img
                 className="card-img-top w-auto mb-3"
-                src="./assets/img/Group-2.png"
+                src="/assets/img/Group-2.png"
                 alt="Card image cap"
               />
               <h5 className="card-title">Sign Up</h5>
@@ -33,7 +33,7 @@ export const ThingsToDo = () => {
             <div className="card-body">
               <img
                 className="card-img-top w-auto mb-3"
-                src="./assets/img/Group.png"
+                src="/assets/img/Group.png"
                 alt="Card image cap"
               />
               <h5 className="card-title">Worth of Money</h5>
@@ -49,7 +49,7 @@ export const ThingsToDo = () => {
             <div className="card-body">
               <img
                 className="card-img-top w-auto mb-3"
-                src="./assets/img/Group-2.png"
+                src="/assets/img/Group-2.png"
                 alt="Card image cap"
               />
               <h5 className="card-title">Exciting Travel</h5>

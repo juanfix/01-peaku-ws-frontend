@@ -16,4 +16,4 @@ La idea es replicar lo mejor posible la página de muestra.
 
 ### Ver Demo
 
-Puedes ver el funcionamiento del proyecto en [Vercel](https://lx-vaccines.netlify.app/)
+Puedes ver el funcionamiento del proyecto en [Vercel](https://peaku-ws-frontend.vercel.app/)

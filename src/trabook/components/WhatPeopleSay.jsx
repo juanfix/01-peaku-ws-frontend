@@ -26,7 +26,7 @@ export const WhatPeopleSay = () => {
                 <div className="card-body">
                   <img
                     className="card-img-top w-25 mb-3"
-                    src="./assets/img/user-male.svg"
+                    src="/assets/img/user-male.svg"
                     alt="Card image cap"
                   />
                   <p className="card-text">
@@ -46,7 +46,7 @@ export const WhatPeopleSay = () => {
                 <div className="card-body">
                   <img
                     className="card-img-top w-25 mb-3"
-                    src="./assets/img/user-male.svg"
+                    src="/assets/img/user-male.svg"
                     alt="Card image cap"
                   />
                   <p className="card-text">

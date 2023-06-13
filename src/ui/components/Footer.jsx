@@ -7,7 +7,7 @@ export const Footer = () => {
             <div className="row mt-3">
               <div className="col-12 col-md-3 col-lg-4 col-xl-6 mx-auto mb-4">
                 <h5 className="mb-4">
-                  <img src="./assets/img/Logo.png" />
+                  <img src="/assets/img/Logo.png" />
                 </h5>
                 <p>
                   Book your trip in minute, get full control for much longer.

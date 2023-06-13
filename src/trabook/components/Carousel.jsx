@@ -37,7 +37,7 @@ export const Carousel = () => {
         <div className="carousel-item active">
           <a href="#">
             <img
-              src="./assets/img/paris.jpg"
+              src="/assets/img/paris.jpg"
               className="d-block w-100"
               alt="Paris"
             />
@@ -50,7 +50,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <a href="#">
             <img
-              src="./assets/img/castelmezzano.jpg"
+              src="/assets/img/castelmezzano.jpg"
               className="d-block w-100"
               alt="Castel Mezzano"
             />
@@ -63,7 +63,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <a href="#">
             <img
-              src="./assets/img/desert.jpg"
+              src="/assets/img/desert.jpg"
               className="d-block w-100"
               alt="Desert"
             />
@@ -76,7 +76,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <a href="#">
             <img
-              src="./assets/img/morocco.jpg"
+              src="/assets/img/morocco.jpg"
               className="d-block w-100"
               alt="Morroco"
             />

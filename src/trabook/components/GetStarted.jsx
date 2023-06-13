@@ -75,7 +75,7 @@ export const GetStarted = () => {
         </div>
         <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-direction-row align-items-center justify-content-center">
           <img
-            src="./assets/img/tourist-with-thumb-up.png"
+            src="/assets/img/tourist-with-thumb-up.png"
             className="img-fluid"
             alt="Statistics"
           />
