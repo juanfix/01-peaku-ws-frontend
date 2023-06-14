@@ -49,7 +49,7 @@ export const ThingsToDo = () => {
             <div className="card-body">
               <img
                 className="card-img-top w-auto mb-3"
-                src="/assets/img/Group-2.png"
+                src="/assets/img/Group-1.png"
                 alt="Card image cap"
               />
               <h5 className="card-title">Exciting Travel</h5>
