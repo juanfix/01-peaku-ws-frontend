@@ -8,7 +8,7 @@ La idea es replicar lo mejor posible la página de muestra.
 
 ## Stack
 
-- React 18.2.0
+- React 18.2.0 + Vite
 - Boostrap 5.1.3
 - CSS3
 
@@ -17,3 +17,11 @@ La idea es replicar lo mejor posible la página de muestra.
 ### Ver Demo
 
 Puedes ver el funcionamiento del proyecto en [Vercel](https://peaku-ws-frontend.vercel.app/)
+
+## Servidor de desarrollo
+
+1. Clonar el repositorio.
+2. Ejecutar el comando `yarn` en la ruta del proyecto para instalar las dependencias.
+3. Ejecutar el comando `yarn dev` para iniciar el servidor de desarrollo.
+4. Navegar a la página `http://localhost:5173/`.
+5. La aplicación cargara automáticamente cada que realice cambios en los archivos.
