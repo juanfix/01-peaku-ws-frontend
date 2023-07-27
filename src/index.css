@@ -6,10 +6,6 @@
 
 }
 
-body { /* Quitar en produccion */
-  background-color: #242424;
-}
-
 @media (max-width: 767.99px) { 
   .card:not(:first-child){
     display: none;
