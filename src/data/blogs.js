@@ -1,0 +1,42 @@
+export const dataBlogs = {
+  ok: true,
+  status: 200,
+  data: [
+    {
+      id_blog: '0280be5a-ebb0-4265-82e4-d86403078c18',
+      title: 'The Amazing Difference a Year of Traveling.',
+      date: '2021-07-20',
+      post_url: '#',
+      img_url: '/assets/img/paris.jpg',
+      createdAt: '2023-07-25T07:24:24.000Z',
+      updatedAt: '2023-07-25T07:24:24.000Z',
+    },
+    {
+      id_blog: '6e764184-aa60-4384-a32c-608148f73d82',
+      title: 'Reflections on 5 Months of Travel: Time to Hang.',
+      date: '2021-07-20',
+      post_url: '#',
+      img_url: '/assets/img/morocco.jpg',
+      createdAt: '2023-07-25T07:33:13.000Z',
+      updatedAt: '2023-07-25T07:33:13.000Z',
+    },
+    {
+      id_blog: '77a265b5-1903-44fd-bdc3-75ca6b6013d6',
+      title: 'Travel far enough, you meet yourself.',
+      date: '2021-07-20',
+      post_url: '#',
+      img_url: '/assets/img/castelmezzano.jpg',
+      createdAt: '2023-07-25T07:28:39.000Z',
+      updatedAt: '2023-07-25T07:28:39.000Z',
+    },
+    {
+      id_blog: 'd7bf241b-3940-45e0-abe1-fdf8253791fc',
+      title: 'How to Save Money While Visiting Africa.',
+      date: '2021-07-20',
+      post_url: '#',
+      img_url: '/assets/img/desert.jpg',
+      createdAt: '2023-07-25T07:32:49.000Z',
+      updatedAt: '2023-07-25T07:32:49.000Z',
+    },
+  ],
+};

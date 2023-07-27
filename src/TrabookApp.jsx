@@ -1,5 +1,10 @@
+import { TrabookProvider } from './context/TrabookProvider';
 import { AppRouter } from './router/AppRouter';
 
 export const TrabookApp = () => {
-  return <AppRouter />;
+  return (
+    <TrabookProvider>
+      <AppRouter />
+    </TrabookProvider>
+  );
 };

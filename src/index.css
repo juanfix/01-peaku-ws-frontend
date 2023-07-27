@@ -6,6 +6,16 @@
 
 }
 
+body { /* Quitar en produccion */
+  background-color: #242424;
+}
+
+@media (max-width: 767.99px) { 
+  .card:not(:first-child){
+    display: none;
+  }
+}
+
 @media (max-width: 991.99px) { 
   .card{
     margin-top: 1rem;
@@ -83,6 +93,18 @@
   height: 60vh;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: var(--main-color);
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
-
-
+.carousel-control-prev span,
+.carousel-control-next span{
+  width: 1.5rem;
+  height: 1.5rem;
+}

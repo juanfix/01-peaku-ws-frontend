@@ -1,4 +1,8 @@
+import { useAxiosBlogs } from '../../hooks/useAxiosBlogs';
+
 export const Carousel = () => {
+  const { blogs } = useAxiosBlogs();
+
   return (
     <div
       id="carouselExampleCaptions"
@@ -6,86 +10,37 @@ export const Carousel = () => {
       data-bs-ride="carousel"
     >
       <div className="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          className="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="3"
-          aria-label="Slide 4"
-        ></button>
+        {blogs.map((blog, index) => (
+          <button
+            key={blog.id_blog}
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to={index}
+            className={index == 0 ? 'active' : ''}
+            aria-current="true"
+            aria-label={`Slide ${index + 1}`}
+          ></button>
+        ))}
       </div>
       <div className="carousel-inner rounded-3">
-        <div className="carousel-item active">
-          <a href="#">
-            <img
-              src="/assets/img/paris.jpg"
-              className="d-block w-100"
-              alt="Paris"
-            />
-          </a>
-          <div className="carousel-caption d-none d-md-block">
-            <h5>The Amazing Difference a Year of Traveling.</h5>
-            <p className="text-white">July 27, 2021</p>
+        {blogs.map((blog, index) => (
+          <div
+            key={blog.id_blog}
+            className={index == 0 ? 'carousel-item active' : 'carousel-item'}
+          >
+            <a href="#">
+              <img
+                src={blog.img_url}
+                className="d-block w-100"
+                alt={blogs.title}
+              />
+            </a>
+            <div className="carousel-caption d-none d-md-block">
+              <h5>{blog.title}</h5>
+              <p className="text-white">{blog.date}</p>
+            </div>
           </div>
-        </div>
-        <div className="carousel-item">
-          <a href="#">
-            <img
-              src="/assets/img/castelmezzano.jpg"
-              className="d-block w-100"
-              alt="Castel Mezzano"
-            />
-          </a>
-          <div className="carousel-caption d-none d-md-block">
-            <h5>Travel far enough, you meet yourself.</h5>
-            <p className="text-white">July 27, 2021</p>
-          </div>
-        </div>
-        <div className="carousel-item">
-          <a href="#">
-            <img
-              src="/assets/img/desert.jpg"
-              className="d-block w-100"
-              alt="Desert"
-            />
-          </a>
-          <div className="carousel-caption d-none d-md-block">
-            <h5>How to Save Money While Visiting Africa.</h5>
-            <p className="text-white">July 27, 2021</p>
-          </div>
-        </div>
-        <div className="carousel-item">
-          <a href="#">
-            <img
-              src="/assets/img/morocco.jpg"
-              className="d-block w-100"
-              alt="Morroco"
-            />
-          </a>
-          <div className="carousel-caption d-none d-md-block">
-            <h5>Reflections on 5 Months of Travel: Time to Hang</h5>
-            <p className="text-white">July 27, 2021</p>
-          </div>
-        </div>
+        ))}
       </div>
       <button
         className="carousel-control-prev"
